@@ -12,10 +12,9 @@ export default function Loading() {
       <section className="flex flex-col gap-5 bg-slate-900 p-6 mt-6 rounded min-w-96">
 
         <div className="flex justify-between gap-4">
-          <h2 className="text-2xl font-bold">servicos Cadastradas</h2>
+          <h2 className="text-2xl font-bold">Servicos Cadastrados</h2>
           <Link href="/servicos/new">
             <Button color="primary" startContent={<Plus size={18} />}>
-              nova categoria
             </Button>
           </Link>
         </div>
